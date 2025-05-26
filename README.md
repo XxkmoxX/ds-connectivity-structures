@@ -45,7 +45,7 @@ Some 3D studies on equivalent hydraulic conductivity are available, but most pre
 <li> No structure (NS), spatially uncorrelated case used as a reference where there are not relation among kr classes.</li>
 </ul>
 
-In particular, a multi-gaussian media modified such as HCS mimics tortuous channels of high flow velocity, while a LCS type simulates flow barriers that could be observed in natural media.
+In particular, a multi-gaussian media modified such as HCS mimics tortuous channels of high flow velocity, while a LCS type simulates flow barriers that could be observed in natural media. Fig. 2 and Fig. 3 shows examples of a realization of the Y=log(kr) for the different connectivity structures: no structure (NS), intermediate (ICS),  high (HCS) and low (LCS) structures for 2D and 3D, respectively. In the 2D cases the inset in the bottom left corner shows a zoom to highlight the media structures.
 
 ![2D_connect_strut_1](kmap_plots/02_conectivity_st_1.png)
 ![2D_connect_strut_2](kmap_plots/02_conectivity_st_2.png)
@@ -54,15 +54,21 @@ In particular, a multi-gaussian media modified such as HCS mimics tortuous chann
 
 ![3D_connect_strut](kmap_plots/04_3D_connectivity_maps_all.png)
 
-<sub>Fig. 3: Maps of Y (log kr) of the 3D connectivity structures used in this study. (a, b, c, d) 3D samples with linear size L=256Δ. (a) No structure, (b) intermediate, (c) high and (d) low connectivity structures.</sub>
+<sub>Fig. 3: Maps of Y (log kr) of the 3D connectivity structures used in this study. (a, b, c, d) 3D samples with linear size L=256Δ. (a) intermediate, (b) high, (c) low and (d) no structure connectivity structuresd.</sub>
 
 ## __4 - Results__
 
-For each dimensionality, we examine first the dependence of pdf P[log(Keq)] with the coarsening scale $\lambda$. Then, we analyze the ensemble arithmetic mean 〈Keq〉, the most frequently metric used in the literature to quantify Keq, or eventually its geometric mean〈〈Keq〉〉, and finally its variance  $\sigma$[log(Keq), these are 1st and 2nd gaussian moments of P[log(Keq)] respectively. Deviations of P[log(Keq)] from a normal distribution are addressed in the discussion by analyzing the skewness $\gamma$[log(Keq)] the 3rd gaussian moment of P[log(Keq)].
+For each space dimention, we examine first the dependence of pdf P[_log_(_K<sub>eq</sub>_)] with the coarsening scale $\lambda$. Then, we analyze the ensemble arithmetic mean 〈_K<sub>eq</sub>_〉, the most frequently metric used in the literature to quantify _K<sub>eq</sub>_, or eventually its geometric mean〈〈_K<sub>eq</sub>_〉〉, and finally its variance  $\sigma$<sub>_log_(_K<sub>eq</sub>_)</sub>, these are 1st and 2nd gaussian moments of P[_log_(_K<sub>eq</sub>_)] respectively. Deviations of P[_log_(_K<sub>eq</sub>_)] from a normal distribution are addressed in the discussion by analyzing the skewness $\gamma$<sub>_log_(_K<sub>eq</sub>_)</sub> the 3rd gaussian moment of P[_log_(_K<sub>eq</sub>_)].
 
-### __a - 2D Geometric mean ⟨⟨Keq⟩⟩__
+### __a - 2D and 3D Geometric mean ⟨⟨_K<sub>eq</sub>_⟩⟩__
 
-[__Fig. 4__](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) in [**"1_2Dconnect_128_VF.ipynb"**](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) shows normalized geometric mean ⟨⟨Keq⟩⟩/Kg as a function of $\lambda$/l for HCS, ICS and LCS. It is observed that ⟨⟨Keq⟩⟩ $\approx$ 1 in ICS for all $\sigma$(Y) values and for all $\lambda$ in agreement with Matheron, 1967. In HCS (LCS), ⟨⟨Keq⟩⟩ increases (decrease) progressively from 1 for low $\lambda$ to reach an asymptotic value for $\lambda$ $\rightarrow$ $\infty$. The asymptotic values becomes larger (smaller) as $\sigma$(Y) increases (decreases).
+*Fig. 4* shows the normalized geometric mean 〈〈_K<sub>eq</sub>_〉〉/_K<sub>g</sub>_ as a function of $\lambda$/_l_ for HCS, ICS and LCS for 2D media samples. It is observed that 〈〈_K<sub>eq</sub>_〉〉=1 in ICS for all $\sigma_{Y}^{2}$ values and for all range of $\lambda$ in agreement with Matheron 1967. In HCS (LCS), ⟨⟨Keq⟩⟩ increases (decrease) progressively from 1 for low  to reach an asymptotic value for . The asymptotic values becomes larger (smaller) as $\sigma_{Y}^{2}$ increases.
+
+![fig4](2D_plots/2D_geometric_mean.png)
+
+<sub>Fig. 4: 2D geometric mean.
+
+[__Fig. 4__](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) in [**"1_2Dconnect_128_VF.ipynb"**](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) shows normalized geometric mean ⟨⟨Keq⟩⟩/Kg as a function of $\lambda$/l for HCS, ICS and LCS. It is observed that ⟨⟨Keq⟩⟩ $\approx$ 1 in ICS for all _$\sigma^{2}_{Y}$_ values and for all $\lambda$ in agreement with Matheron, 1967. In HCS (LCS), ⟨⟨Keq⟩⟩ increases (decrease) progressively from 1 for low $\lambda$ to reach an asymptotic value for $\lambda$ $\rightarrow$ $\infty$. The asymptotic values becomes larger (smaller) as $\sigma$(Y) increases (decreases).
 
 ### __b - 2D Arithmetic mean ⟨Keq⟩__
 
