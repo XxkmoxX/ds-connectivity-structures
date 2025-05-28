@@ -67,7 +67,7 @@ For each space dimention, we examine first the dependence of pdf P[_log_(_K<sub>
 ![fig4](2D_plots/2D_geometric_mean.png)
 <sub>**Fig. 4:** 2D geometric mean.
 
-**Fig. 5**: shows the normalized geometric mean **〈〈_K<sub>eq</sub>_〉〉/_K<sub>g</sub>_** as a function of **$\lambda$/_l_**  for HCS, ICS and LCS for 3D media samples. Unlike 2D medias samples, the ICS for all **$\sigma_{Y}^{2}$** values are different from 1 and do not comply with Matheron 1967. For all connectivity structures cases the **〈〈_K<sub>eq</sub>_〉〉/_K<sub>g</sub>_** increases progressively from **1** for low **$\lambda$** to reach an asymptotic value that is greater as **$\sigma_{Y}^{2}$** values increases for                                       
+**Fig. 5**: shows the normalized geometric mean **〈〈_K<sub>eq</sub>_〉〉/_K<sub>g</sub>_** as a function of **$\lambda$/_l_** for HCS, ICS and LCS for 3D media samples. Unlike 2D medias samples, the ICS for all **$\sigma_{Y}^{2}$** values are different from 1 and do not comply with Matheron 1967. For all connectivity structures cases the **〈〈_K<sub>eq</sub>_〉〉/_K<sub>g</sub>_** increases progressively from **1** for low **$\lambda$** to reach an asymptotic value that is greater as **$\sigma_{Y}^{2}$** values increases for                                       
 **$\lambda$ $\rightarrow$ $\infty$**. There are two exception to this behavior for the LCS of **$\sigma_{Y}^{2}$ = 1** and **$\sigma_{Y}^{2}$ = 2** for **$\lambda$/_l_ = 1** where **〈〈_K<sub>eq</sub>_〉〉/_K<sub>g</sub>_** reaches a maximum and then decreases as  increases.
 
 ![fig3](3D_plots/3D_geometric_mean.png)                                                                 
@@ -75,7 +75,7 @@ For each space dimention, we examine first the dependence of pdf P[_log_(_K<sub>
 
 ### __b - 2D and 3D Arithmetic mean ⟨_K<sub>eq</sub>_⟩__
 
-**Fig. 6** shows ⟨Keq⟩/Kg as a function of the dimensionless coarsening scale /l. It is observed in (b) (ICS) that ⟨Keq⟩Kgexp(f2/2) as 0, ⟨Keq⟩Kg for  and ⟨Keq⟩/Kg converges to 1(dotted black line) for all Y2. In (a) (HCS) the ⟨Keq⟩/Kg values lie above 1 and in (c) (LCS) ⟨Keq⟩/Kg values lie below 1 with an inversion for the different Y2 values.
+**Fig. 6** shows **〈_K<sub>eq</sub>_〉/_K<sub>g</sub>_** as a function of the dimensionless coarsening scale **$\lambda$/_l_**. It is observed in (b) (ICS) that **〈_K<sub>eq</sub>_〉** **$\rightarrow$** $\mathbf{ K_{g}exp\left ( \sigma _{Y}^{2}/2 \right )}$ as **$\lambda$ $\rightarrow$ 0**, **〈_K<sub>eq</sub>_〉 $\rightarrow$ _K<sub>g</sub>_**  for  and ⟨Keq⟩/Kg converges to 1(dotted black line) for all Y2. In (a) (HCS) the ⟨Keq⟩/Kg values lie above 1 and in (c) (LCS) ⟨Keq⟩/Kg values lie below 1 with an inversion for the different Y2 values.
 
 
 [__Fig. 4__](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) in [**"1_2Dconnect_128_VF.ipynb"**](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) shows normalized geometric mean ⟨⟨Keq⟩⟩/Kg as a function of $\lambda$/l for HCS, ICS and LCS. It is observed that ⟨⟨Keq⟩⟩ $\approx$ 1 in ICS for all _$\sigma^{2}_{Y}$_ values and for all $\lambda$ in agreement with Matheron, 1967. In HCS (LCS), ⟨⟨Keq⟩⟩ increases (decrease) progressively from 1 for low $\lambda$ to reach an asymptotic value for $\lambda$ $\rightarrow$ $\infty$. The asymptotic values becomes larger (smaller) as $\sigma$(Y) increases (decreases).
