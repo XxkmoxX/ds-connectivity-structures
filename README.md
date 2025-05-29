@@ -66,12 +66,12 @@ For each space dimention, we examine first the dependence of pdf $P\left[ log\le
 ![fig4a](2D_plots/2D_pdf_variance_0.5_from_data.png)
 ![fig4b](2D_plots/2D_pdf_variance_1.0_from_data.png)    
 ![fig4c](2D_plots/2D_pdf_variance_2.0_from_data.png)              
-<sub> **Fig. 4a:** 2D PDF.<br><br>
+<sub> **Fig. 4a:** 2D PDF.</sub><br><br>
 
 ![fig4d](3D_plots/3D_pdf_variance_0.5.png)
 ![fig43](3D_plots/3D_pdf_variance_1.png)    
 ![fig4f](3D_plots/3D_pdf_variance_2.png)                     
-<sub> **Fig. 4b:** 3D PDF.<br><br>
+<sub> **Fig. 4b:** 3D PDF.</sub><br><br>
 
 ### __b - 2D and 3D Arithmetic mean ⟨_K<sub>eq</sub>_⟩__
 
@@ -79,7 +79,7 @@ For each space dimention, we examine first the dependence of pdf $P\left[ log\le
 $\mathbf{K_{g}exp\left(\sigma_{Y}^{2}/2\right)}$ as **$\lambda$ $\rightarrow$ 0**, **〈_K<sub>eq</sub>_〉 $\rightarrow$ _K<sub>g</sub>_**  for **$\lambda$ $\rightarrow$ $\infty$** and **〈_K<sub>eq</sub>_〉/_K<sub>g</sub>_** converges to 1 (dotted black line) for all **$\sigma_{Y}^{2}$**. In (a) (HCS) the **〈_K<sub>eq</sub>_〉/_K<sub>g</sub>_** values lie above 1 and in (c) (LCS) **〈_K<sub>eq</sub>_〉/_K<sub>g</sub>_** values lie below 1 with an inversion for the different **$\sigma_{Y}^{2}$** values.
 
 ![fig5a](2D_plots/2D_arithmetic_mean.png)                                                                 
-<sub>**Fig. 5a:** 2D arithmetic mean.<br><br>
+<sub>**Fig. 5a:** 2D arithmetic mean.</sub><br><br>
 
 **Fig. 5b** shows **〈_K<sub>eq</sub>_〉/_K<sub>g</sub>_** as a function of **$\lambda$/_l_** for 3D media samples. The **Fig. 7b** in comparison with **Fig. 6b** shows that the results obtained by *Matheron 1967* for 2D when **$\lambda$ $\rightarrow$ $\infty$** are not applicable to 3D media.
 
@@ -90,49 +90,35 @@ The **x** symbols in **$\lambda$ $\rightarrow$ $\infty$** (**Fig 17a, b, c**) in
 The (**---, -.-, ...**) black lines in **Fig. 7b** are the analytical results given by Eq. 1.1.7 with D=3 and as=1.3 and predicts the **〈_K<sub>eq</sub>_〉/_K<sub>g</sub>_** transition between the **_K<sub>a</sub>_** and $\mathbf{K_{g}exp\left(\sigma _{Y}^{2}/6\right)}$ extreme values.
 
 ![fig5b](3D_plots/3D_arithmetic_mean.png)                                                                 
-<sub>**Fig. 5b:** 3D arithmetic mean.<br><br>
+<sub>**Fig. 5b:** 3D arithmetic mean.</sub><br><br>
 
-### __a - 2D and 3D Geometric mean ⟨⟨_K<sub>eq</sub>_⟩⟩__
+### __c - 2D and 3D Geometric mean ⟨⟨_K<sub>eq</sub>_⟩⟩__
 
 **Fig. 6a** shows the normalized geometric mean 〈〈_K<sub>eq</sub>_〉〉/_K<sub>g</sub>_ as a function of $\lambda$/_l_ for HCS, ICS and LCS for 2D media samples. It is observed that 〈〈_K<sub>eq</sub>_〉〉=1 in ICS for all $\sigma_{Y}^{2}$ values and for all range of $\lambda$ in agreement with Matheron 1967. In HCS (LCS), ⟨⟨Keq⟩⟩ increases (decrease) progressively from 1 for low  to reach an asymptotic value for . The asymptotic values becomes larger (smaller) as $\sigma_{Y}^{2}$ increases.
 
 ![fig6a](2D_plots/2D_geometric_mean_v2.png)
-<sub>**Fig. 6a:** 2D geometric mean.
+<sub>**Fig. 6a:** 2D geometric mean.</sub><br><br>
 
 **Fig. 6b**: shows the normalized geometric mean **〈〈_K<sub>eq</sub>_〉〉/_K<sub>g</sub>_** as a function of **$\lambda$/_l_** for HCS, ICS and LCS for 3D media samples. Unlike 2D medias samples, the ICS for all **$\sigma_{Y}^{2}$** values are different from 1 and do not comply with Matheron 1967. For all connectivity structures cases the **〈〈_K<sub>eq</sub>_〉〉/_K<sub>g</sub>_** increases progressively from **1** for low **$\lambda$** to reach an asymptotic value that is greater as **$\sigma_{Y}^{2}$** values increases for                                       
 **$\lambda$ $\rightarrow$ $\infty$**. There are two exception to this behavior for the LCS of **$\sigma_{Y}^{2}$ = 1** and **$\sigma_{Y}^{2}$ = 2** for **$\lambda$/_l_ = 1** where **〈〈_K<sub>eq</sub>_〉〉/_K<sub>g</sub>_** reaches a maximum and then decreases as  increases.
 
 ![fig6b](3D_plots/3D_geometric_mean.png)                                                                 
-<sub>**Fig. 6b:** 3D geometric mean.
+<sub>**Fig. 6b:** 3D geometric mean.</sub><br><br>
+
+### __d - 2D Normalized variances and collapse__ $\left(\lambda/l\right)^{2}\sigma_{log\left(K_{eq}\right)}^{2}/\sigma_{Y}^{2}$ 
+
+**Fig. 7a** shows the normalized variance $\left(\lambda/l\right)^{2}\sigma_{log\left(K_{eq}\right)}^{2}/\sigma_{Y}^{2}$ as a function of $\lambda$/_l_. The Normalized variance is obtained by multiplying $\sigma_{log\left(K_{eq}\right)}^{2}/\sigma_{Y}^{2}$ by a normalizing factor $\left(\lambda/l\right)^{2}$ which estimates the number of independent heterogeneity units (IHU) of size _l<sup>2</sup>_ within a coarse cell of size $\lambda$<sup>2</sup>. The fact that the $\sigma_{log\left(K_{eq}\right)}^{2}/\sigma_{Y}^{2}$ tends to an asymptotic value as $\lambda$ $\rightarrow$ $\infty$ involve that it is only a function of the IHU. **Fig. 7b** shows the collapse of $\left(\lambda/l\right)^{2}\sigma_{log\left(K_{eq}\right)}^{2}/\sigma_{Y}^{2}$ for all connectivity structures and input variances over the full $\lambda$ range.
+
+![fig7a](2D_plots/2D_normalized_variance_v2.png)                                                                 
+<sub>**Fig. 7a:** 2D normalized variance.</sub><br><br>
+![fig7b](2D_plots/2D_collapsed_normalized_variance.png)                                                                 
+<sub>**Fig. 7b:** 2D collapse of normalized variances.</sub><br><br>
 
 
+### __e - 2D Skewness__ $\gamma_{log(K_{eq})}$
 
+**Fig. 8:** shows the skewness $\gamma_{log(K_{eq})}$ of $P\left[log\left(K_{eq}\right)\right]$ as a function of $\lambda$/_l_ for (green) ICS, (red) HCS and (blue) LCS for input variances $\sigma_{Y}^{2}=0.5,1,2$ for 2D media samples. It shows a clear collapse for all $\sigma_{Y}^{2}$ for each connectivity structure. The $\gamma_{log(K_{eq})}$ values for ECI are close to zero, while for HCS are negatives with a minimum on $\lambda$/_l_ = 1 and for LCS are positives with a maximum on $\lambda$/_l_ = 1.
 
-
-
-[__Fig. 4__](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) in [**"1_2Dconnect_128_VF.ipynb"**](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) shows normalized geometric mean ⟨⟨Keq⟩⟩/Kg as a function of $\lambda$/l for HCS, ICS and LCS. It is observed that ⟨⟨Keq⟩⟩ $\approx$ 1 in ICS for all _$\sigma^{2}_{Y}$_ values and for all $\lambda$ in agreement with Matheron, 1967. In HCS (LCS), ⟨⟨Keq⟩⟩ increases (decrease) progressively from 1 for low $\lambda$ to reach an asymptotic value for $\lambda$ $\rightarrow$ $\infty$. The asymptotic values becomes larger (smaller) as $\sigma$(Y) increases (decreases).
-
-### __b - 2D Arithmetic mean ⟨Keq⟩__
-
-[__Fig. 5__](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) in [**"1_2Dconnect_128_VF.ipynb"**](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) shows ⟨Keq⟩/Kg as a function of the dimensionless coarsening scale $\lambda$/l. It is observed in (b) (ICS) that ⟨Keq⟩ $\rightarrow$ $Kg^{(\sigma(Y)/2)}$ as $\lambda$ $\rightarrow$ 0, ⟨Keq⟩ $\rightarrow$ 
- Kg and ⟨Keq⟩/Kg converges to 1 (dotted black line) for all $\sigma$(Y). In (a) (HCS) the ⟨Keq⟩/Kg values lie above 1 and in (c) (LCS) ⟨Keq⟩/Kg values lie below 1 with an inversion for the different $\sigma$(Y) values.
-
-### __c - 2D Probability density functions (PDF)__
-
-[__Fig. 6__](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) in [**"1_2Dconnect_128_VF.ipynb"**](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) shows 2D P[log(Keq)] for the high (HCS), intermediate (ICS) and low (LCS) connective structures for   $\sigma$(Y)=0.5, 1 and 2. For ICS, in agreement with {Boschan & Nœtinger, 2012; Colecchio et al., 2020}, P[log(Keq)] remains a normal distribution for all λ, with $\sigma$[log(Keq)] decreasing as λ increases. But, notably, for HCS and LCS , P[log(Keq)]  departs from normal, showing lack of symmetry or bias as λ exceeds Δ, and becoming symmetric as λ increases. The most evident feature of the asymmetry is a small bump that moves centerward, from high (HCS) or low (LCS) values of log Keq, as λ increases. The asymmetry increases as $\sigma$(Y) increases. Also it is observed that P[log(Keq)] becomes more homogeneous as λ becomes larger and more compact and wider as $\sigma$(Y) increases. 
-
-### __d - 2D Skewness__
-
-[__Fig. 7__](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) in [**"1_2Dconnect_128_VF.ipynb"**](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) shows the skewness of P[log(Keq)] as a function of $\lambda$ / l for (a) ICS, (b) HCS and (c) LCS. Input variance: (△, bottom fill)  $\sigma$(Y)=0.5, (⭘, left fill)  $\sigma$(Y)=1 and (◻, right fill)  $\sigma$(Y)=2. It shows a clear collapse for all $\sigma$(Y) for each connectivity structure. The $\gamma$[log(Keq)] values for ECI are close to zero, while for HCS are negatives with a minimum on $\lambda$ / l=1 and for LCS are positives with a maximum on $\lambda$ / l=1.
-
-### __e - 2D Normalized variance__
-
-[__Fig. 8a__](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) in [**"1_2Dconnect_128_VF.ipynb"**](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) shows the normalized variance $(\lambda /l)^{2}\sigma[log(Keq)]/\sigma (Y)$ as a function of $\lambda$/l. The Normalized variance is obtained by multiplying $\sigma[log(Keq)]/\sigma (Y)$ by a normalizing factor $(\lambda /l)^{2}$ which estimates the number of  independent heterogeneity units (IHU) of size $l^{2}$ within a coarse cell of size $\lambda^{2}$. The fact that the $(\lambda /l)^{2}\sigma[log(Keq)]/\sigma (Y)$ tends to an asymptotic value as $\lambda$ $\rightarrow$ $\infty$ involve that it is only a function of the IHU. [__Fig. 8b__](https://gitlab.com/XxkmoxX/connectivity/-/blob/main/1_2Dconnect_128_VF.ipynb?ref_type=heads) shows the collapse of $(\lambda /l)^{2}\sigma[log(Keq)]/\sigma (Y)$ for all connectivity structures and input variances over the full $\lambda$ range.
-
-
-
-
-
-
-
+![fig8](2D_plots/2D_skewness_from_data.png)                                                                 
+<sub>**Fig. 8:** 2D skewness.</sub><br><br>
 
