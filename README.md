@@ -50,10 +50,10 @@ In particular, a multi-gaussian media modified such as HCS mimics tortuous chann
 
 ![2D_connect_strut_1](kmap_plots/02_conectivity_st_1.png)
 ![2D_connect_strut_2](kmap_plots/02_conectivity_st_2.png)
-<sub>**Fig. 2:** Maps of **Y** ($log\left(k\left(\mathbf{r}\right)\right)$ of the 2D connectivity structures used in this study. (a, b, c, d) 2D samples with linear size *L*=1024*Δ*, the left bottom corner shows a zoom for easier visualization. (a) No structure, (b) intermediate, (c) high and (d) low connectivity structures.</sub><br><br>
+<sub>**Fig. 2:** Maps of **Y** $(log\left(k\left(\mathbf{r}\right)\right)$ of the 2D connectivity structures used in this study. (a, b, c, d) 2D samples with linear size *L*=1024*Δ*, the left bottom corner shows a zoom for easier visualization. (a) No structure, (b) intermediate, (c) high and (d) low connectivity structures.</sub><br><br>
 
 ![3D_connect_strut](kmap_plots/04_3D_connectivity_maps_all.png)
-<sub>**Fig. 3:** Maps of **Y** ($log\left(k\left(\mathbf{r}\right)\right)$ of the 3D connectivity structures used in this study. (a, b, c, d) 3D samples with linear size *L*=256*Δ*. (a) intermediate, (b) high, (c) low and (d) no structure connectivity structuresd.</sub><br><br>
+<sub>**Fig. 3:** Maps of **Y** $(log\left(k\left(\mathbf{r}\right)\right)$ of the 3D connectivity structures used in this study. (a, b, c, d) 3D samples with linear size *L*=256*Δ*. (a) intermediate, (b) high, (c) low and (d) no structure connectivity structuresd.</sub><br><br>
 
 ## __4 - Results__
 
@@ -61,14 +61,17 @@ For each space dimention, we examine first the dependence of pdf $P\left[ log\le
 
 ### **a - 2D and 3D Probability Density Function $P\left[log\left(K_{eq}\right)\right]$**
 
-**Fig. 4** shows 2D $P\left[log\left ( K_{eq} \right ) \right ]$ for the high (HCS), intermediate (ICS) and low (LCS) connective structures for $\sigma_{Y}^{2}$ = 0.5, 1, 2. For ICS, in agreement with {boschan12, colecchio20}, $P\left[log\left(K_{eq}\right)\right]$ remains as a normal distribution at all coarsening scales _λ_, with  $\sigma_{log\left(K_{eq}\right)}^{2}$ decreasing as _λ_ increases. But, notably, for HCS and LCS ,  $\sigma_{log\left(K_{eq}\right)}^{2}$ departs from normal, showing lack of symmetry (or a bias) as _λ_ exceeds _Δ_, and then becoming symmetric as _λ_ increases. The most evident feature of the asymmetry is a small bump that moves centerward, from high (HCS) or low (LCS) values of $log\left(K_{eq}\right)$, as _λ_ increases. The asymmetry increases as $\sigma_{Y}^{2}$ increases. Also it is observed that $\sigma_{log\left(K_{eq}\right)}^{2}$ becomes more homogeneous as _λ_ becomes larger and more compact and wider as $\sigma_{Y}^{2}$ increases. 
+**Fig. 4a and 4b** shows 2D and 3D $P\left[log\left ( K_{eq} \right ) \right ]$ for the high (HCS), intermediate (ICS) and low (LCS) connective structures for $\sigma_{Y}^{2}$ = 0.5, 1, 2. For ICS, in agreement with {boschan12, colecchio20}, $P\left[log\left(K_{eq}\right)\right]$ remains as a normal distribution at all coarsening scales _λ_, with  $\sigma_{log\left(K_{eq}\right)}^{2}$ decreasing as _λ_ increases. But, notably, for HCS and LCS ,  $\sigma_{log\left(K_{eq}\right)}^{2}$ departs from normal, showing lack of symmetry (or a bias) as _λ_ exceeds _Δ_, and then becoming symmetric as _λ_ increases. The most evident feature of the asymmetry is a small bump that moves centerward, from high (HCS) or low (LCS) values of $log\left(K_{eq}\right)$, as _λ_ increases. The asymmetry increases as $\sigma_{Y}^{2}$ increases. Also it is observed that $\sigma_{log\left(K_{eq}\right)}^{2}$ becomes more homogeneous as _λ_ becomes larger and more compact and wider as $\sigma_{Y}^{2}$ increases. 
 
 ![fig4a](2D_plots/2D_pdf_variance_0.5_from_data.png)
 ![fig4b](2D_plots/2D_pdf_variance_1.0_from_data.png)    
-![fig4c](2D_plots/2D_pdf_variance_2.0_from_data.png)    
+![fig4c](2D_plots/2D_pdf_variance_2.0_from_data.png)              
+<sub> **Fig. 4a:** 2D PDF.<br><br>
 
-<sub>**Fig. 4:** 2D PDF for **$\sigma_{Y}^{2}$ = 0.5, 1, 2**.<br><br>
-
+![fig4d](3D_plots/3D_pdf_variance_0.5.png)
+![fig43](3D_plots/3D_pdf_variance_1.png)    
+![fig4f](3D_plots/3D_pdf_variance_2.png)                     
+<sub> **Fig. 4b:** 3D PDF.<br><br>
 
 ### __b - 2D and 3D Arithmetic mean ⟨_K<sub>eq</sub>_⟩__
 
@@ -93,7 +96,7 @@ The (**---, -.-, ...**) black lines in **Fig. 7b** are the analytical results gi
 
 **Fig. 6a** shows the normalized geometric mean 〈〈_K<sub>eq</sub>_〉〉/_K<sub>g</sub>_ as a function of $\lambda$/_l_ for HCS, ICS and LCS for 2D media samples. It is observed that 〈〈_K<sub>eq</sub>_〉〉=1 in ICS for all $\sigma_{Y}^{2}$ values and for all range of $\lambda$ in agreement with Matheron 1967. In HCS (LCS), ⟨⟨Keq⟩⟩ increases (decrease) progressively from 1 for low  to reach an asymptotic value for . The asymptotic values becomes larger (smaller) as $\sigma_{Y}^{2}$ increases.
 
-![fig6a](2D_plots/2D_geometric_mean.png)
+![fig6a](2D_plots/2D_geometric_mean_v2.png)
 <sub>**Fig. 6a:** 2D geometric mean.
 
 **Fig. 6b**: shows the normalized geometric mean **〈〈_K<sub>eq</sub>_〉〉/_K<sub>g</sub>_** as a function of **$\lambda$/_l_** for HCS, ICS and LCS for 3D media samples. Unlike 2D medias samples, the ICS for all **$\sigma_{Y}^{2}$** values are different from 1 and do not comply with Matheron 1967. For all connectivity structures cases the **〈〈_K<sub>eq</sub>_〉〉/_K<sub>g</sub>_** increases progressively from **1** for low **$\lambda$** to reach an asymptotic value that is greater as **$\sigma_{Y}^{2}$** values increases for                                       
